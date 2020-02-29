@@ -1,0 +1,53 @@
+@import 'reset.css';
+@import 'buttons.css';
+@import 'colors.stable.css';
+@import 'index.css';
+@import 'menu.css';
+@import 'shop.css';
+
+/*
+@import 'reset.css';
+@import 'buttons.css';
+@import 'colors.stable.css';
+@import 'index.css';
+@import 'menu.css';
+@import 'shop.css';
+@import 'responsive.css';
+@import 'reset.css';
+@import 'buttons.css';
+@import 'colors.stable.css';
+@import 'index.css';
+@import 'menu.css';
+@import 'shop.css';
+@import 'responsive.css';
+@import 'reset.css';
+@import 'buttons.css';
+@import 'colors.stable.css';
+@import 'index.css';
+@import 'menu.css';
+@import 'shop.css';
+@import 'responsive.css';
+*/
+.menu-block .navbar {
+    min-height: inherit;
+    margin-bottom: 0;
+    border: none;
+}
+header ul.header-pages-menu > li.top-categories a {
+    color: #f55629;
+}
+header ul.header-pages-menu > li.top-categories:hover a {
+    color: #fff;
+}
+header ul.header-pages-menu > li  {
+    line-height: 3.25em;
+}
+header ul.header-pages-menu > li li {
+    line-height: normal;
+}
+header #cart {
+    margin-bottom: 0;
+}
+header #cart > .btn {
+    padding: 10px;
+}

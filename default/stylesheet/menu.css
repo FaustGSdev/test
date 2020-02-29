@@ -1,0 +1,20 @@
+.menu {margin:0 0 1em 0;}
+.menu ul {list-style:none;margin:0;padding:0;}
+
+.menu a {display: block; position: relative; text-transform: uppercase;}
+.menu i:before {font-family: FontAwesome;line-height: 1.5em; position:absolute; top:0; bottom:0;}
+
+.menu .current > a, .menu .open > a {font-weight:bold;}
+
+.menu .L0item > a {padding:0.625em 1em 0.625em 0;}
+.menu .L0item > a i:before {content: "\f105"; right:0; left:auto; font-size:1.5em; line-height: 1.5em;}
+.menu .L0item.children > a i:before {content: "\f107"; right:0; left:auto; font-size:1.5em; line-height: 1.5em;}
+.menu .L0item.children.open > a i:before {content: "\f106";}
+
+.menu .L1 a {padding: 0.3em 0 0.3em 2em; text-transform: none; border:none;}
+.menu .L1 a i:before {content: "\f105"; left:0; right:auto; font-size:100%; padding: 0.1em 0 0 1em;}
+.menu .L1 a:hover i:before, .menu .L1 .current > a i:before {content:"\f101";}
+.menu .L1 li:first-child a {border-top:none;}
+.menu .L1 li:last-child a {padding-bottom:0.5em;}
+
+.menu .L2 {padding-left:1em; font-size:90%;}
